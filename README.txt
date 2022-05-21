@@ -11,3 +11,7 @@
 3. 원격 저장소에 커밋 올리기 : git remote add origin https://GitHub.com/유저이름/Repository name.git 로
             원격 저장소 주소를 입력하고 
             git push origin master 를 입력해서 커밋들을 저장소에 푸시한다.
+4. 원격 저장소의 커밋 내려받기 : git clone https://GitHub.com/rjsdks/Repository name. git . < 마침표는
+            현재 폴더에 내려받으라는 이야기이다. 마침표를 찍지않으면 폴더 안에 새로운 폴더를 생성해서 내려받는다.
+5. 원격 저장소의 새로운 커밋을 로컬저장소에 갱신하기 : git pull origin master 명령어를 이용하면
+             원격 저장소에서 새롭게 푸시한 커밋을 로컬 저장소에 내려받는다.
